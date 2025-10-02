@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Dashboard</title>
+    <link rel="stylesheet" href="smartHome.css">
+    <link rel="icon" href="assets/logo.png" type="image/png" sizes="192x192">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="logo">  
+            <h1>Smart Home</h1>
+        </div>
+        <ul class="links">
+            <li><a href="" target="_blank">About</a></li>   
+            <li><a href="https://github.com/Manarr-Ashraf" target="_blank">Documentation</a></li>
+            <li><a href="https://www.linkedin.com/in/manar-ashraf-967706280" target="_blank">Contact Us</a></li>
+        </ul>
+    </header>
+ 
+    <main>
+        <div class="intro">
+            <h2>Make your life easier</h2>
+            <p>Step into the future of living with our cutting-edge smart home solutions. 
+                Control your lights, security, climate, and entertainment—all from one intuitive platform. 
+                Simplify your daily routines, enhance comfort, and experience a home that works for you</p>
+        </div>
+    </main>
+
+    <section class="dashboard"> 
+         <div class="view">
+            <div class="temp" id="styleall">
+                <img src="assets/temperatuer.png" alt="---">
+                <h2>--°C</h2>
+            </div>
+            <div class="humi" id="styleall">
+                <img src="assets/humidity.png" alt="---">
+                <h2>--%</h2>
+            </div>
+            <div class="person" id="styleall">
+                <img src="assets/noPerson.png" alt="---">
+                <h2>No one is there</h2>
+            </div>
+        </div>
+        <div class="status">
+            <div class="Dcontainer">
+                <div class="door" id="styleall">
+                    <img src="assets/closeDoor.png" alt="---">
+                    <h2>Closed</h2>
+                </div>
+            </div>
+            <div class="Lcontainer">
+                <div class="light" id="styleall">
+                    <img src="assets/lightOff.png" alt="---">
+                    <h2>Light Off</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="contactUs">
+        <div class="title">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="data">
+            <h3>Name</h3>
+            <input type="text" name="name" id="name">
+            <h3>Email</h3>
+            <input type="email" name="email" id="email">
+            <input type="text"  name="details" id="details">
+        </div>
+    </div> -->
+
+
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script src="smartHome.js"></script>
+</body>
+</html>

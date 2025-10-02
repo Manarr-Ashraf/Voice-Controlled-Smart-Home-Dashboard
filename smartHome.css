@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+}
+
+html {
+      background-color: rgb(244, 243, 243);
+      height: 1000px;
+}
+
+/* header styling */
+
+header {
+  height: 100px;
+  width: 1440;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  letter-spacing: 2px;
+  /* font-style: italic; */
+  color: rgb(75, 75, 75);
+  display: flex;
+}
+
+header .logo h1{
+ margin-top: 15px;
+}
+header .logo .decoration {
+  color: rgb(75, 75, 75);
+  /* text-decoration: underline; */
+ 
+}
+header .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+   
+}
+
+header .links li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+   font-size: 20px;
+
+}
+header .links li a {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Introduction styling */
+main {
+    /* color: rgb(255, 255, 255); */
+    height: 400px;
+    width: 1440px;
+    max-width: 90%;
+    margin: auto;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20231221/pngtree-smart-home-technology-simple-and-convenient-life-image_15537327.png");
+    background-size: cover;
+    /* background-color: rgb(113, 112, 112); */
+    border-radius: 20px;
+}
+main .intro {
+    color: rgb(255, 255, 255);
+    width: 54%;
+    position: relative;
+    top: 70px;
+    left: 45%;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-size: 500;
+}
+main .intro h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.dashboard {
+    height: 400px;
+    width: 1440px;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.dashboard img{
+    height: 100px;
+    width: 100px;
+}
+.dashboard .door img {
+    height: 120px;
+    width: 90px;
+    margin-right: 7px;
+}
+.dashboard .light img {
+    height: 120px;
+    width: 90px;
+}
+.dashboard .person img {
+    height: 120px;
+    width: 120px;
+}
+.dashboard .Dcontainer:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+.dashboard .Lcontainer:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.dashboard .view{
+    height: 300px;
+    width: 700px;
+    background-color:rgb(165, 165, 175) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgb(168, 168, 168);
+}
+.dashboard .status{
+    height: 300px;
+    width: 450px;
+    background-color:rgb(165, 165, 175) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgb(168, 168, 168);
+}
+
+
+ #styleall{
+    font-weight: 500;
+    color: rgb(244, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+ }
